@@ -43,6 +43,16 @@ body {
   color: rgba(255, 255, 255, 0.64);
 }
 
+@media (max-width: 991px) {
+  .section-heading {
+    padding: 50px 0 0 0;
+  }
+}
+@media (max-width: 575px) {
+  .section-heading {
+    padding: 30px 0 0 0;
+  }
+}
 /* 
 Header Area CSS
 */
@@ -65,12 +75,54 @@ Header Area CSS
   border-radius: 6px;
   text-transform: uppercase;
   font-weight: 700;
+  display: inline-block;
 }
 .header-area .nav-link,
 .header-area .nav-link.active {
   color: #fff;
 }
+@media (max-width: 991px) {
+  .navbar-toggler {
+    border: none;
+    box-shadow: none !important;
+  }
 
+  .navbar-toggler-icon {
+    background-color: #ef6d58;
+    border-radius: 10%;
+  }
+  .header-area .navbar-nav .nav-item:last-child {
+    padding-left: 0;
+  }
+  .header-area .navbar-nav .nav-item:last-child a {
+    border: 1px solid rgba(255, 255, 255, 0.64);
+    padding: 5px 15px;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .header-area .nav-item {
+    margin: 0;
+    padding-left: 15px;
+  }
+}
+@media (max-width: 575px) {
+  .navbar-toggler-icon {
+    background-color: #fff;
+    display: inline-block;
+    height: 28px;
+    width: 30px;
+  }
+  #navbarNav {
+    text-align: center;
+  }
+  .header-area .navbar-nav .nav-item:last-child {
+    margin-left: 0;
+  }
+  .header-area .nav-item {
+    margin: 0;
+    padding-left: 0;
+  }
+}
 /* 
 Hero Area CSS
 */
@@ -111,7 +163,58 @@ Hero Area CSS
   line-height: 14px;
   display: inline-block;
 }
+@media (max-width: 991px) {
+  .hero-area {
+    padding: 80px 0;
+  }
+  .hero-area .hero-text h3 {
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ef6d58;
+  }
+  .hero-area .hero-text h2 {
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -2px;
+  }
+  .hero-area .hero-text p {
+    font-size: 14px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.64);
+    margin: 25px 0;
+  }
+}
 
+@media (max-width: 575px) {
+  .hero-area {
+    padding: 50px 0;
+    text-align: center;
+  }
+  .hero-area .hero-text h3 {
+    font-size: 12px;
+    line-height: 25px;
+    letter-spacing: 1px;
+  }
+  .hero-area .hero-text h2 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .hero-area .hero-text p {
+    font-size: 12px;
+    line-height: 25px;
+    margin: 20px 0;
+  }
+  .hero-area .hero-text a {
+    padding: 10px 15px;
+    font-weight: 800;
+    font-size: 12px;
+    margin-bottom: 50px;
+  }
+}
 /* 
 Service Area CSS
 */
@@ -174,6 +277,82 @@ Service Area CSS
   top: 0;
 }
 
+@media (max-width: 991px) {
+  .service-area {
+    padding: 60px 0;
+  }
+  .service-area .section-heading {
+    margin-bottom: 20px;
+  }
+  .section-heading H3 {
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 2px;
+  }
+  .section-heading H2 {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .service-one {
+    border-radius: 6px 6px 0px 0px;
+  }
+  .service-two {
+    border-radius: 0px 0px 6px 6px;
+    border-left: 1px solid #f3d1bf;
+    border-top: 0;
+  }
+  .service-heading i {
+    font-size: 20px;
+    height: 65px;
+    width: 65px;
+    line-height: 65px;
+  }
+}
+@media (max-width: 575px) {
+  .service-area {
+    padding: 30px 0;
+  }
+  .service-area {
+    padding: 20px 0 50px 0;
+  }
+  .section-heading {
+    padding: 30px 0 0 0;
+  }
+  .service-heading i {
+    font-size: 10px;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    margin-left: 65px;
+  }
+  .service-heading i.first-icon {
+    margin-left: 95px;
+  }
+  .section-heading H3 {
+    font-size: 12px;
+    line-height: 25px;
+    letter-spacing: 1px;
+  }
+  .service-area.section-heading H2 {
+    font-weight: 600;
+    font-size: 40px !important;
+    line-height: 30px;
+  }
+  .single-service {
+    padding: 20px;
+    text-align: center;
+  }
+  .single-service {
+    padding: 30px 10px;
+  }
+  .service-text a::after {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    font-size: 30px;
+  }
+}
 /* 
 Contact Area CSS
 */
@@ -221,6 +400,59 @@ Contact Area CSS
   color: #fff;
 }
 
+@media (max-width: 991px) {
+  .contact-area {
+    padding: 85px 0 30px 0;
+  }
+  .contact-form h3 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+  .section-heading H2 {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+  }
+}
+@media (max-width: 575px) {
+  .contact-area {
+    padding: 50px 0 30px 0;
+    text-align: center;
+  }
+  .contact-form {
+    padding: 30px 20px;
+    margin: 0 10px;
+  }
+  .contact-form h3 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+  .section-heading H2 {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 40px;
+  }
+  .section-heading p {
+    font-size: 14px;
+  }
+  .contact-text ul li i {
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 10px;
+  }
+  .contact-text ul li a {
+    font-size: 15px;
+  }
+  .contact-form button {
+    display: inline-block;
+  }
+}
 /* 
 Footer Area CSS
 */
@@ -230,4 +462,10 @@ Footer Area CSS
 .footer-area p {
   margin-bottom: 0;
   color: rgba(57, 20, 0, 0.64);
+}
+@media (max-width: 575px) {
+  .footer-area {
+    padding: 15px 0;
+    font-size: 10px;
+  }
 }
