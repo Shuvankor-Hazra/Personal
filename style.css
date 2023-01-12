@@ -1,0 +1,233 @@
+/* 
+Google Fonts
+*/
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700;800&display=swap");
+
+/* 
+All BG Colour: 28293E
+BG Colour: EF6C57
+Text Colour: 391400 64%
+Heading Colour: 391400
+Sub Heading Colour: EF6D58
+*/
+
+/* 
+Basic CSS
+*/
+body {
+  font-family: "Epilogue", sans-serif;
+  font-weight: 400;
+  background-color: #fdf0e9;
+}
+.service-heading {
+  display: flex;
+  align-items: center;
+}
+.service-heading i {
+  font-size: 30px;
+  background-color: #ef6d58;
+  color: #fff;
+  height: 80px;
+  width: 80px;
+  line-height: 80px;
+  border-radius: 50%;
+  text-align: center;
+}
+.service-heading h3 {
+  margin-left: 20px;
+  margin-bottom: 0;
+}
+.section-heading p {
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 0.64);
+}
+
+/* 
+Header Area CSS
+*/
+.header-area {
+  background-color: #28293e;
+  padding: 15px 0;
+}
+.header-area .navbar {
+  padding: 0;
+}
+.header-area .nav-item {
+  margin: 0 35px;
+}
+.header-area .navbar-nav .nav-item:last-child {
+  margin-right: 0;
+}
+.header-area .navbar-nav .nav-item:last-child a {
+  border: 1px solid rgba(255, 255, 255, 0.64);
+  padding: 10px 35px;
+  border-radius: 6px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.header-area .nav-link,
+.header-area .nav-link.active {
+  color: #fff;
+}
+
+/* 
+Hero Area CSS
+*/
+.hero-area {
+  background-color: #28293e;
+  color: #fff;
+  padding: 100px 0;
+  min-height: calc(100vh - 88px);
+}
+.hero-area .hero-text h3 {
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #ef6d58;
+}
+.hero-area .hero-text h2 {
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 80px;
+  letter-spacing: -2px;
+}
+.hero-area .hero-text p {
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 0.64);
+  margin: 25px 0;
+}
+.hero-area .hero-text a {
+  background-color: #ef6d58;
+  text-transform: uppercase;
+  padding: 15px 25px;
+  text-decoration: none;
+  border-radius: 6px;
+  color: #fff;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 14px;
+  display: inline-block;
+}
+
+/* 
+Service Area CSS
+*/
+.service-area {
+  padding: 85px 0;
+}
+.service-area .section-heading {
+  margin-bottom: 55px;
+}
+.section-heading H3 {
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #ef6d58;
+}
+.section-heading H2 {
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  color: #391400;
+}
+.single-service {
+  padding: 50px;
+  border: 1px solid #f3d1bf;
+}
+.service-one {
+  border-radius: 6px 0px 0px 6px;
+}
+.service-two {
+  border-radius: 0px 6px 6px 0px;
+  border-left: 0;
+}
+.service-text p {
+  margin: 25px 0;
+  color: rgba(57, 20, 0, 0.64);
+}
+.service-text a {
+  display: inline-block;
+  padding-left: 60px;
+  padding-top: 12px;
+  position: relative;
+  color: #391400;
+  text-decoration: none;
+}
+.service-text a::after {
+  position: absolute;
+  content: "\2b";
+  height: 48px;
+  width: 48px;
+  line-height: 48px;
+  text-align: center;
+  font-size: 30px;
+  color: #ef6d58;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.64);
+  left: 0;
+  top: 0;
+}
+
+/* 
+Contact Area CSS
+*/
+.contact-area {
+  padding: 85px 0;
+  background-color: #28293e;
+}
+.contact-form {
+  padding: 50px;
+  background-color: #fff;
+}
+.contact-form h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #391400;
+  margin-bottom: 25px;
+}
+.contact-form button {
+  background-color: #ef6d58;
+  color: #fff;
+  display: block;
+  margin-top: 25px;
+}
+.contact-text ul {
+  margin: 0;
+  padding: 0;
+}
+.contact-text ul li {
+  margin: 15px 0;
+}
+.contact-text ul li i {
+  margin-right: 15px;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 50%;
+  background-color: #ef6d58;
+}
+.contact-text ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* 
+Footer Area CSS
+*/
+.footer-area {
+  padding: 25px 0;
+}
+.footer-area p {
+  margin-bottom: 0;
+  color: rgba(57, 20, 0, 0.64);
+}
