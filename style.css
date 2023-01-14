@@ -371,6 +371,9 @@ Contact Area CSS
   color: #391400;
   margin-bottom: 25px;
 }
+#error-div {
+  font-size: small;
+}
 .contact-form button {
   background-color: #ef6d58;
   color: #fff;
