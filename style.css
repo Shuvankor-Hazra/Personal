@@ -207,7 +207,7 @@ Hero Area CSS
   }
   .hero-area .hero-text h2 {
     font-weight: 600;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 50px;
   }
   .hero-area .hero-text p {
@@ -336,7 +336,7 @@ Service Area CSS
   }
   .service-area .section-heading H2 {
     font-weight: 600;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 50px;
   }
   .single-service {
@@ -434,9 +434,9 @@ Contact Area CSS
     line-height: 30px;
     margin-bottom: 20px;
   }
-  .section-heading H2 {
+  .contact-area .section-heading H2 {
     font-weight: 600;
-    font-size: 25px;
+    font-size: 30px;
     line-height: 40px;
   }
   .section-heading p {
