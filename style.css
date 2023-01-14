@@ -37,6 +37,13 @@ body {
   margin-left: 20px;
   margin-bottom: 0;
 }
+.section-heading h3 {
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #ef6d58;
+}
 .section-heading p {
   font-size: 16px;
   line-height: 32px;
@@ -224,13 +231,6 @@ Service Area CSS
 .service-area .section-heading {
   margin-bottom: 55px;
 }
-.section-heading H3 {
-  font-size: 16px;
-  line-height: 32px;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  color: #ef6d58;
-}
 .section-heading H2 {
   font-weight: 800;
   font-size: 56px;
@@ -324,27 +324,27 @@ Service Area CSS
     height: 45px;
     width: 45px;
     line-height: 45px;
-    margin-left: 65px;
+    margin-left: 90px;
   }
   .service-heading i.first-icon {
-    margin-left: 95px;
+    margin-left: 115px;
   }
   .section-heading H3 {
     font-size: 12px;
     line-height: 25px;
     letter-spacing: 1px;
   }
-  .service-area.section-heading H2 {
+  .service-area .section-heading H2 {
     font-weight: 600;
-    font-size: 40px !important;
-    line-height: 30px;
+    font-size: 40px;
+    line-height: 50px;
   }
   .single-service {
     padding: 20px;
     text-align: center;
   }
   .single-service {
-    padding: 30px 10px;
+    padding: 50px 10px;
   }
   .service-text a::after {
     height: 40px;
@@ -407,13 +407,13 @@ Contact Area CSS
   .contact-area {
     padding: 85px 0 30px 0;
   }
-  .contact-form h3 {
+  .contact-area .contact-form h3 {
     font-weight: 600;
     font-size: 22px;
     line-height: 30px;
     margin-bottom: 20px;
   }
-  .section-heading H2 {
+  .contact-area .section-heading H2 {
     font-weight: 600;
     font-size: 50px;
     line-height: 60px;
